@@ -1,3 +1,4 @@
+//Author: paulabscs
 //service worker WIP
 
 chrome.runtime.onMessage.addListener( // this is the message listener

@@ -1,4 +1,4 @@
-
+//Author: paulabscs
 console.log("welcome to contentjs for Gmail simplifier");
 
 (async () => {

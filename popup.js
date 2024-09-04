@@ -1,4 +1,4 @@
-
+//Author: paulabscs
 //checks the domain of the website
 
 'use strict';
