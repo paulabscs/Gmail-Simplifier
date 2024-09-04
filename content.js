@@ -1,14 +1,7 @@
 //Author: paulabscs
 console.log("welcome to contentjs for Gmail simplifier");
 
-(async () => {
-  const response = await chrome.runtime.sendMessage({greeting: "hello"});
-  // message passing - unfinished
-  console.log(response);
-})();
-
 window.addEventListener ("load", HIDEbar, false);
-
 
 function HIDEbar() {
 	//removes selection shadow when selecting the sidebar menu button
@@ -30,6 +23,3 @@ function HIDEbar() {
 }
 
 
-function receivedSignal(){
-	console.log("content has recieved")
-}
