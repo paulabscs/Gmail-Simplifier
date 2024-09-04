@@ -1,0 +1,25 @@
+ {
+ 	"background": {
+         "service_worker": "sw.js"
+      },
+	"content_scripts": [{
+   		"matches": ["*://*.mail.google.com/*"],
+    		"js": ["content.js"]
+ 	 }],
+      "name": "gmail simplifier",
+      "author": "paulabscs",
+      "version": "1.01",
+      "manifest_version": 3,
+      "description": "Simplifies features in Gmail.",
+      "action": {
+       "default_icon": "icon128.png",
+       "default_title": "Gmail Simplifier",
+       "default_popup": "popup.html"
+      },
+       "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+	"128": "icon128.png"
+      },
+       "permissions": ["scripting","activeTab"]
+}
