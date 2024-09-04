@@ -6,7 +6,7 @@
    		"matches": ["*://*.mail.google.com/*"],
     		"js": ["content.js"]
  	 }],
-      "name": "gmail simplifier",
+      "name": "Gmail Simplifier",
       "author": "paulabscs",
       "version": "1.01",
       "manifest_version": 3,
